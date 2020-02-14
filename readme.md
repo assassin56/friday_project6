@@ -18,7 +18,11 @@ DELETE LINES WITHIN THE BRACKETS PRIOR TO SUBMISSION
   * Request API key from BetterDoctor API
   * Store API key in .env file
     * Ensure .env is in .gitignore.
-  * Use API key and url to aquire data from BetterDoctor server
+  * Use API key and url to aquire data from BetterDoctor server.
+  * Create __tests__ folder and file.
+  * Create doctor-service.js
+    * Create class to handle the API
+      * Link .env file and var to API url.
 ]
 
 
