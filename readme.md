@@ -18,7 +18,7 @@ DELETE LINES WITHIN THE BRACKETS PRIOR TO SUBMISSION
   * Request API key from BetterDoctor API
   * Store API key in .env file
     * Ensure .env is in .gitignore.
-  * 
+  * Use API key and url to aquire data from BetterDoctor server
 ]
 
 
