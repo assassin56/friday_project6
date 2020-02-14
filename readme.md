@@ -13,6 +13,15 @@ _https://github.com/assassin56/friday_project6_
 
 ## SPEC Sheet
 
+DELETE LINES WITHIN THE BRACKETS PRIOR TO SUBMISSION
+[
+  * Request API key from BetterDoctor API
+  * Store API key in .env file
+    * Ensure .env is in .gitignore.
+  * 
+]
+
+
 * User receives list of recommended doctors
   * Input: Runny nose (ailment).
     * Doctor's names.
