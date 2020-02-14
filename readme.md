@@ -13,8 +13,21 @@ _https://github.com/assassin56/friday_project6_
 
 ## SPEC Sheet
 
-
-
+* User receives list of recommended doctors
+  * Input: Runny nose (ailment).
+    * Doctor's names.
+      * First, last name.
+      * Address.
+      * Phone number.
+      * Website.
+      * Whether or not they are accepting new patients (API provided.)
+  * Output: List of doctors in their city to treat their issue.
+* Correct error handling
+  * Input: API call
+  * Output: If errornous call, a notification should inform the user of the error
+* Return statement indicating there are no doctors that match the criteria
+  * Input: Ailment; Doctor name.
+  * Output: "There are no doctors for this query at this time. Try again later."
 
 ## Setup/Installation Requirements
 
@@ -44,6 +57,7 @@ _codrocks.cruz3@gmail.com_
 * _Jest_
 * _Webpack_
 * _EsLint_
+* _BetterDoctor API_
 
 
 ### License
