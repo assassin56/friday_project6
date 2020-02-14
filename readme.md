@@ -23,6 +23,10 @@ DELETE LINES WITHIN THE BRACKETS PRIOR TO SUBMISSION
   * Create doctor-service.js
     * Create class to handle the API
       * Link .env file and var to API url.
+  * Get eslint to operate and report console logs
+  * Link form submissions to doctor-service file
+  * Get front-end functionality going.
+  * Create specific input forms for doctor request and illnesses.
 ]
 
 
