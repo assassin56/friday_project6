@@ -18,7 +18,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'friday_project6', 
+      title: 'Ping Pong',
       template: './src/index.html',
       inject: 'body'
     }),
@@ -34,28 +34,13 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jp(e*)g|svg)$/,
-        use: [{
-            loader: 'url-loader',
-            options: {
-                limit: 8000,
-                name: 'images/[hash]-[name].[ext]'
-            }
-        }]
-      },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
-      },
-      {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: [
+            /node_modules/,
+            /spec/
+          ],
         loader: "eslint-loader"
       }
     ]
   }
-};
+}
