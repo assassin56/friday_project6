@@ -13,23 +13,6 @@ _https://github.com/assassin56/friday_project6_
 
 ## SPEC Sheet
 
-DELETE LINES WITHIN THE BRACKETS PRIOR TO SUBMISSION
-[
-  * Request API key from BetterDoctor API
-  * Store API key in .env file
-    * Ensure .env is in .gitignore.
-  * Use API key and url to aquire data from BetterDoctor server.
-  * Create __tests__ folder and file.
-  * Create doctor-service.js
-    * Create class to handle the API
-      * Link .env file and var to API url.
-  * Get eslint to operate and report console logs
-  * Link form submissions to doctor-service file
-  * Get front-end functionality going.
-  * Create specific input forms for doctor request and illnesses.
-]
-
-
 * User receives list of recommended doctors
   * Input: Runny nose (ailment).
     * Doctor's names.
@@ -55,7 +38,7 @@ DELETE LINES WITHIN THE BRACKETS PRIOR TO SUBMISSION
 
 ## Known Bugs
 
-_N/A_
+_Application is not yet in a functional state._
 
 ## Support and contact details
 
